@@ -1,0 +1,41 @@
+<!-- templates/contact.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4">About Us</h1>
+    <div class="row">
+        <!-- Romero Rachmat Musadat -->
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="{{ url_for('static', filename='images/romero.jpg') }}" class="card-img-top" alt="Romero Rachmat Musadat">
+                <div class="card-body">
+                    <h5 class="card-title">Romero Rachmat Musadat (164221070)</h5>
+                    <p class="card-text">Mahasiswa aktif prodi Teknologi Sains Data di Universitas Airlangga.</p>
+                </div>
+            </div>
+        </div>
+        <!-- INDRAYANA WIDHIKARTIKO -->
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="{{ url_for('static', filename='images/indrayana.jpg') }}" class="card-img-top" alt="INDRAYANA WIDHIKARTIKO">
+                <div class="card-body">
+                    <h5 class="card-title">INDRAYANA WIDHIKARTIKO (164231079)</h5>
+                    <p class="card-text">Mahasiswa aktif prodi Teknologi Sains Data di Universitas Airlangga.</p>
+                </div>
+            </div>
+        </div>
+        <!-- BUNGA AMANDA AURORA -->
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="{{ url_for('static', filename='images/bunga.jpg') }}" class="card-img-top" alt="BUNGA AMANDA AURORA">
+                <div class="card-body">
+                    <h5 class="card-title">BUNGA AMANDA AURORA (164231098)</h5>
+                    <p class="card-text">Mahasiswa aktif prodi Teknologi Sains Data di Universitas Airlangga.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
